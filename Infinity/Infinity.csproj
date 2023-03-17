@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\squirrel.windows.2.0.1\build\squirrel.windows.props" Condition="Exists('packages\squirrel.windows.2.0.1\build\squirrel.windows.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D21061D-79C0-4166-8585-C8A7EB43BAC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Infinity</RootNamespace>
+    <AssemblyName>Infinity</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>infinity %282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>Infinity.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cake.Powershell, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Cake.Powershell.1.0.1\lib\net46\Cake.Powershell.dll</HintPath>
+    </Reference>
+    <Reference Include="DeltaCompressionDotNet, Version=1.1.0.0, Culture=neutral, PublicKeyToken=1d14d6e5194e7f4a, processorArchitecture=MSIL">
+      <HintPath>packages\DeltaCompressionDotNet.1.1.0\lib\net20\DeltaCompressionDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DeltaCompressionDotNet.MsDelta, Version=1.1.0.0, Culture=neutral, PublicKeyToken=46b2138a390abf55, processorArchitecture=MSIL">
+      <HintPath>packages\DeltaCompressionDotNet.1.1.0\lib\net20\DeltaCompressionDotNet.MsDelta.dll</HintPath>
+    </Reference>
+    <Reference Include="DeltaCompressionDotNet.PatchApi, Version=1.1.0.0, Culture=neutral, PublicKeyToken=3e8888ee913ed789, processorArchitecture=MSIL">
+      <HintPath>packages\DeltaCompressionDotNet.1.1.0\lib\net20\DeltaCompressionDotNet.PatchApi.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.46.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.11.46\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialSkin.2.2.3.1\lib\net461\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>packages\Mono.Cecil.0.11.4\lib\net40\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>packages\Mono.Cecil.0.11.4\lib\net40\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>packages\Mono.Cecil.0.11.4\lib\net40\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>packages\Mono.Cecil.0.11.4\lib\net40\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Squirrel, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\squirrel.windows.2.0.1\lib\Net45\NuGet.Squirrel.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress, Version=0.17.1.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
+      <HintPath>packages\SharpCompress.0.17.1\lib\net45\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="Squirrel, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\squirrel.windows.2.0.1\lib\Net45\Squirrel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Cake.Powershell.1.0.1\lib\net46\System.Management.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Reflection" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.38.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Tulpep.NotificationWindow.1.1.38\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmCleaner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCleaner.Designer.cs">
+      <DependentUpon>frmCleaner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFirstOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFirstOpen.Designer.cs">
+      <DependentUpon>frmFirstOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInstaller.Designer.cs">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKnightGB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKnightGB.Designer.cs">
+      <DependentUpon>frmKnightGB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPCBooster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPCBooster.Designer.cs">
+      <DependentUpon>frmPCBooster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProblemSolver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProblemSolver.Designer.cs">
+      <DependentUpon>frmProblemSolver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmShutdowntimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmShutdowntimer.Designer.cs">
+      <DependentUpon>frmShutdowntimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUpgrade.Designer.cs">
+      <DependentUpon>frmUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWCustomize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWCustomize.Designer.cs">
+      <DependentUpon>frmWCustomize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWFeatures.designer.cs">
+      <DependentUpon>frmWFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWindowsUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWindowsUpdate.Designer.cs">
+      <DependentUpon>frmWindowsUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWRemover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWRemover.designer.cs">
+      <DependentUpon>frmWRemover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWSecurityDisable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWSecurityDisable.Designer.cs">
+      <DependentUpon>frmWSecurityDisable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWSecurityEnable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWSecurityEnable.Designer.cs">
+      <DependentUpon>frmWSecurityEnable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCleaner.resx">
+      <DependentUpon>frmCleaner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFirstOpen.resx">
+      <DependentUpon>frmFirstOpen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKnightGB.resx">
+      <DependentUpon>frmKnightGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPCBooster.resx">
+      <DependentUpon>frmPCBooster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProblemSolver.resx">
+      <DependentUpon>frmProblemSolver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmShutdowntimer.resx">
+      <DependentUpon>frmShutdowntimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUpgrade.resx">
+      <DependentUpon>frmUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWCustomize.resx">
+      <DependentUpon>frmWCustomize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWFeatures.resx">
+      <DependentUpon>frmWFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWindowsUpdate.resx">
+      <DependentUpon>frmWindowsUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWRemover.resx">
+      <DependentUpon>frmWRemover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWSecurityDisable.resx">
+      <DependentUpon>frmWSecurityDisable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWSecurityEnable.resx">
+      <DependentUpon>frmWSecurityEnable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\All cleaner.bat" />
+    <None Include="Resources\Internet files delete.bat" />
+    <None Include="Resources\restart app.bat" />
+    <None Include="Resources\Windows System %28SoftwareDistribution.old,Catroot2.old%29 .bat" />
+    <None Include="Resources\windowspackagerinstall.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock restart.bat" />
+    <None Include="Resources\DefenderDisable.bat" />
+    <None Include="Resources\DefenderEnable.bat" />
+    <None Include="Resources\infinity %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Needless Windows Files %28Extensions tmp,_mp,log,chk,old,bak%29 .bat" />
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset an Internet Connection %28Flush DNS%29.bat" />
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temporary Files %28Temp,Prefetch,Cache%29.bat" />
+    <None Include="Resources\upgrade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="infinity %282%29.ico" />
+    <None Include="Resources\windows-xp-loading1.gif" />
+    <None Include="Resources\Windows_11_Change_OldContextMenu.bat" />
+    <None Include="Resources\yesilyurtlogo.png" />
+    <None Include="Resources\kopazarrrr.png" />
+    <None Include="Resources\bynogame.png" />
+    <None Include="Resources\kopazar-logo2.jpg" />
+    <None Include="Resources\kopazar-logo1.jpg" />
+    <None Include="Resources\kopazar-logo.jpg" />
+    <None Include="Resources\icons8_refresh_50px_1.png" />
+    <None Include="Resources\windows-xp-loading.gif" />
+    <None Include="Resources\Reload-1.3s-197px %281%29.gif" />
+    <None Include="Resources\Reload-1s-200px %281%29.gif" />
+    <None Include="Resources\icons8_refresh_96px.png" />
+    <None Include="Resources\icons8_ok_96px.png" />
+    <None Include="Resources\icons8_replace_96px.png" />
+    <None Include="Resources\Multi-Circle-Preloader.gif" />
+    <None Include="Resources\gb_düstü_cek.wav" />
+    <None Include="Resources\gb_yükseldi sound.wav" />
+    <None Include="Resources\icons8_Gold_Bars_32px.png" />
+    <None Include="Resources\gb yükseldi SOUNd.mp3" />
+    <None Include="Resources\deactive security.gif" />
+    <None Include="Resources\Active security.gif" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\fail.png" />
+    <None Include="Resources\image_processing20210906-14793-3orv2p.gif" />
+    <None Include="Resources\popupinfinity.png" />
+    <None Include="Resources\icons8_ok_50px.png" />
+    <None Include="Resources\icons8_next_page_50px.png" />
+    <None Include="Resources\icons8_back_50px.png" />
+    <None Include="Resources\icons8_ccleaner_48px1.png" />
+    <None Include="Resources\icons8_unavailable_32px.png" />
+    <None Include="Resources\icons8_about_32px.png" />
+    <None Include="Resources\icons8_downloading_updates_32px.png" />
+    <None Include="Resources\icons8_launch_32px.png" />
+    <None Include="Resources\icons8_solve_32px.png" />
+    <None Include="Resources\icons8_shutdown_32px.png" />
+    <None Include="Resources\icons8_ccleaner_32px.png" />
+    <None Include="Resources\icons8_registry_editor_32px.png" />
+    <None Include="Resources\icons8_Software_Installer_32px.png" />
+    <None Include="Resources\icons8_cd_32px.png" />
+    <None Include="Resources\icons8_refresh_32px.png" />
+    <None Include="Resources\icons8_restart_48px.png" />
+    <None Include="Resources\icons8_shutdown_48px.png" />
+    <None Include="Resources\icons8_Logout_Rounded_48px.png" />
+    <None Include="Resources\icons8_ccleaner_48px.png" />
+    <None Include="Resources\icons8_folder_tree_32px.png" />
+    <None Include="Resources\icons8_microsoft_edge_32px.png" />
+    <None Include="Resources\icons8_trash_32px.png" />
+    <None Include="Resources\icons8_delete_folder_32px.png" />
+    <None Include="Resources\icons8_word_32px.png" />
+    <None Include="Resources\icons8_windows_10_32px.png" />
+    <None Include="Resources\back-arrows.png" />
+    <None Include="Resources\fast-forward1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\squirrel.windows.2.0.1\build\squirrel.windows.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\squirrel.windows.2.0.1\build\squirrel.windows.props'))" />
+  </Target>
+</Project>
