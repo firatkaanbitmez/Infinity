@@ -1,0 +1,133 @@
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Infinity.exe.config
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Cake.Powershell.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\DeltaCompressionDotNet.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\NuGet.Squirrel.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\SharpCompress.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Squirrel.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\System.Management.Automation.dll
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Cake.Powershell.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Cake.Powershell.xml
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\NuGet.Squirrel.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\bin\Debug\Squirrel.pdb
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.csproj.AssemblyReference.cache
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.csproj.SuggestedBindingRedirects.cache
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.frmAbout.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmCleaner.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmInstaller.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.frmMain.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmPerformanceBooster.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmProblemSolver.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmShutdowntimer.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.frmUpgrade.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.frmWFeatures.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Forms.frmWindowsUpdate.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.frmWRemover.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.Properties.Resources.resources
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.csproj.GenerateResource.cache
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.csproj.CopyComplete
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\New folder\Infinity\obj\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Infinity.exe.config
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Cake.Powershell.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\DeltaCompressionDotNet.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\MaterialSkin.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\NuGet.Squirrel.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\SharpCompress.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Squirrel.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\System.Management.Automation.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Cake.Powershell.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Cake.Powershell.xml
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\NuGet.Squirrel.pdb
+C:\Users\FIRAT\Desktop\Infinity\bin\Debug\Squirrel.pdb
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.csproj.AssemblyReference.cache
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.csproj.SuggestedBindingRedirects.cache
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.frmAbout.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmCleaner.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmInstaller.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.frmMain.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmPerformanceBooster.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmProblemSolver.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmShutdowntimer.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.frmUpgrade.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmWCustomize.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.frmWFeatures.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Forms.frmWindowsUpdate.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.frmWRemover.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.Properties.Resources.resources
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.csproj.GenerateResource.cache
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.csproj.CopyComplete
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\Infinity\obj\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Infinity.exe.config
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Cake.Powershell.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\DeltaCompressionDotNet.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\MaterialSkin.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\NuGet.Squirrel.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\SharpCompress.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Squirrel.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\System.Management.Automation.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Cake.Powershell.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Cake.Powershell.xml
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\NuGet.Squirrel.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\bin\Debug\Squirrel.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.csproj.AssemblyReference.cache
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.csproj.SuggestedBindingRedirects.cache
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.frmAbout.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmCleaner.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmInstaller.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.frmMain.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmPerformanceBooster.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmProblemSolver.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmShutdowntimer.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.frmUpgrade.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmWCustomize.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.frmWFeatures.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Forms.frmWindowsUpdate.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.frmWRemover.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.Properties.Resources.resources
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.csproj.GenerateResource.cache
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.csproj.CopyComplete
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.exe
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.pdb
+C:\Users\FIRAT\Desktop\Infinity - Copy\obj\Debug\Infinity.FormPowerShellSample.resources

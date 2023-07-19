@@ -1,0 +1,544 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net7.0/System.Management.Automation.dll",
+      "SPDXID": "SPDXRef-File--ref-net7.0-System.Management.Automation.dll-D6834628D7851E165AD07249208AC3E5B0314165",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f932f5b31a7f1ac736039e20aa7cedd10a5d48f006a9856d3bd20402f421102"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d6834628d7851e165ad07249208ac3e5b0314165"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/unix/lib/net7.0/System.Management.Automation.dll",
+      "SPDXID": "SPDXRef-File--runtimes-unix-lib-net7.0-System.Management.Automation.dll-BDFBDFD29516E6BA7484558AFA3956BFBCCD774A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77a30e4c71cae61fb3bc091f63732f59857c36edfbcf8af4fc91f26e2800cc44"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bdfbdfd29516e6ba7484558afa3956bfbccd774a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net7.0/System.Management.Automation.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net7.0-System.Management.Automation.dll-2EEC716091E5608A8D56061400BAFD82057C4EA4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a62af465227705a8b5692e834a7384d3f1803e6bd60796750128fa48e022ea8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2eec716091e5608a8d56061400bafd82057c4ea4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net7.0/System.Management.Automation.xml",
+      "SPDXID": "SPDXRef-File--ref-net7.0-System.Management.Automation.xml-E22B513DB9087094D0A8DF2340D847BC3A24E5E3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2fca01de07804f170862693794e368397d51a7469e314cab24153bf0d2829b04"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e22b513db9087094d0a8df2340d847bc3a24e5e3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Microsoft.ApplicationInsights",
+      "SPDXID": "SPDXRef-Package-2E0BBEAF0EB8B69339E6071A2989DCFD4AF6F7EF1C2FC710EC9D500A53E90602",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.21.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.ApplicationInsights%402.21.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.DirectoryServices",
+      "SPDXID": "SPDXRef-Package-B442B0688E38CC6F5F5241222B40495823F9921483A4C40D50FD694FF315BC5C",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.DirectoryServices%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Text.Encoding.CodePages",
+      "SPDXID": "SPDXRef-Package-37969034CC2665B9751F1BB8CD95F1B9EBD2D4CA3DDB1445E55AF08FF5A483A4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Text.Encoding.CodePages%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.Security.Extensions",
+      "SPDXID": "SPDXRef-Package-D8E4403B7E4F65C963BFC9295E62A5845211C3D08A7D6E7EB3A0C38CB6DB56BD",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.Security.Extensions%401.2.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Management",
+      "SPDXID": "SPDXRef-Package-10BF983B2D2E00969475793362959735BAA455BBB5AF3346DC8C8EB72E06E013",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Management%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.Management.Infrastructure",
+      "SPDXID": "SPDXRef-Package-B4818DF507BF454F483D412A8DA720FE15316B607BA2F5300A9D59397AB2CAFE",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.Management.Infrastructure%402.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "SPDXID": "SPDXRef-Package-E0A78695108204A2F0DD2F12CB479AB8A54C07255B7547ECB100D84973968F28",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0-preview.2.22152.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Runtime.CompilerServices.Unsafe%407.0.0-preview.2.22152.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Security.AccessControl",
+      "SPDXID": "SPDXRef-Package-E85D3DFB14E2D1DBAB4A9BAA1CC80E8025D758FCF305AE98DD11015574AEA3FD",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.0.2-mauipre.1.22102.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Security.AccessControl%406.0.2-mauipre.1.22102.15"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.Native",
+      "SPDXID": "SPDXRef-Package-24657B48B3729AA135CFFBE39340ECD5E39342DC47ED55088F9D72C881F21071",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.PowerShell.Native%407.3.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.Win32.Registry.AccessControl",
+      "SPDXID": "SPDXRef-Package-ABA6828B6BE98B1C1CF696C5F18DD2F8BC9F7F27E044E3CEEBE498F504B5D17C",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.Win32.Registry.AccessControl%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Newtonsoft.Json",
+      "SPDXID": "SPDXRef-Package-6F5ABA2F60FB90661506CC54FDBF9E05522B0358CA56CDFBFF998AB5A5BCD428",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "13.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Newtonsoft.Json%4013.0.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Configuration.ConfigurationManager",
+      "SPDXID": "SPDXRef-Package-EAF50BE3959D920EC2C2A32D425E53F74856FE11325143BF0B2DECA87CBDC2E5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Configuration.ConfigurationManager%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Diagnostics.DiagnosticSource",
+      "SPDXID": "SPDXRef-Package-34A315DDDBE97EA2B149EFFD7B150D8AA8C2E034A31FCC46107CE39C88121359",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Diagnostics.DiagnosticSource%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.CoreCLR.Eventing",
+      "SPDXID": "SPDXRef-Package-04F77E1251C182AD30181E287249915FF0CCA67E3F8F1B071AD545821CF02AFA",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.PowerShell.CoreCLR.Eventing%407.3.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Security.Cryptography.Pkcs",
+      "SPDXID": "SPDXRef-Package-148BA170BB3A0ECCA59205F0EB30F5199263FC9F863B1B63243199A61D43ED45",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Security.Cryptography.Pkcs%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Security.Permissions",
+      "SPDXID": "SPDXRef-Package-D0AFA1135DD70C4BE3A426699A4BD772762C066CB05E34A798BFD36D89643F02",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Security.Permissions%407.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Management.Automation",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "747bed855ee61d7f5f29e1390d4073f4fbd0e018"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.0",
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--ref-net7.0-System.Management.Automation.xml-E22B513DB9087094D0A8DF2340D847BC3A24E5E3",
+        "SPDXRef-File--runtimes-win-lib-net7.0-System.Management.Automation.dll-2EEC716091E5608A8D56061400BAFD82057C4EA4",
+        "SPDXRef-File--runtimes-unix-lib-net7.0-System.Management.Automation.dll-BDFBDFD29516E6BA7484558AFA3956BFBCCD774A",
+        "SPDXRef-File--ref-net7.0-System.Management.Automation.dll-D6834628D7851E165AD07249208AC3E5B0314165"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-04F77E1251C182AD30181E287249915FF0CCA67E3F8F1B071AD545821CF02AFA",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-34A315DDDBE97EA2B149EFFD7B150D8AA8C2E034A31FCC46107CE39C88121359",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6F5ABA2F60FB90661506CC54FDBF9E05522B0358CA56CDFBFF998AB5A5BCD428",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-ABA6828B6BE98B1C1CF696C5F18DD2F8BC9F7F27E044E3CEEBE498F504B5D17C",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-24657B48B3729AA135CFFBE39340ECD5E39342DC47ED55088F9D72C881F21071",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E85D3DFB14E2D1DBAB4A9BAA1CC80E8025D758FCF305AE98DD11015574AEA3FD",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-10BF983B2D2E00969475793362959735BAA455BBB5AF3346DC8C8EB72E06E013",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D8E4403B7E4F65C963BFC9295E62A5845211C3D08A7D6E7EB3A0C38CB6DB56BD",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-148BA170BB3A0ECCA59205F0EB30F5199263FC9F863B1B63243199A61D43ED45",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2E0BBEAF0EB8B69339E6071A2989DCFD4AF6F7EF1C2FC710EC9D500A53E90602",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D0AFA1135DD70C4BE3A426699A4BD772762C066CB05E34A798BFD36D89643F02",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-EAF50BE3959D920EC2C2A32D425E53F74856FE11325143BF0B2DECA87CBDC2E5",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E0A78695108204A2F0DD2F12CB479AB8A54C07255B7547ECB100D84973968F28",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-B4818DF507BF454F483D412A8DA720FE15316B607BA2F5300A9D59397AB2CAFE",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-37969034CC2665B9751F1BB8CD95F1B9EBD2D4CA3DDB1445E55AF08FF5A483A4",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-B442B0688E38CC6F5F5241222B40495823F9921483A4C40D50FD694FF315BC5C",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "System.Management.Automation 7.3.0",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:309447/System.Management.Automation:7.3.0:M64xo3yQmkKu8S8i250HcQ",
+  "creationInfo": {
+    "created": "2022-11-07T22:55:37Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-0.2.7"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
